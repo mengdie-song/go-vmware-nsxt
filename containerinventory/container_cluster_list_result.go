@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/mengdie-song/go-vmware-nsxt/common"
 )
 
 type ContainerClusterListResult struct {

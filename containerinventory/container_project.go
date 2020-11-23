@@ -10,7 +10,7 @@
 package containerinventory
 
 import (
-	"github.com/vmware/go-vmware-nsxt/common"
+	"github.com/mengdie-song/go-vmware-nsxt/common"
 )
 
 // Details of org/namespace within a container cluster.

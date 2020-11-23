@@ -9,7 +9,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vmware/go-vmware-nsxt/appdiscovery"
+	"github.com/mengdie-song/go-vmware-nsxt/appdiscovery"
 	"net/http"
 	"net/url"
 	"strings"

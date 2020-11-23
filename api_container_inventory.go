@@ -17,7 +17,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/vmware/go-vmware-nsxt/containerinventory"
+	"github.com/mengdie-song/go-vmware-nsxt/containerinventory"
 )
 
 // Linger please

@@ -9,7 +9,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vmware/go-vmware-nsxt/errorresolver"
+	"github.com/mengdie-song/go-vmware-nsxt/errorresolver"
 	"net/http"
 	"net/url"
 	"strings"

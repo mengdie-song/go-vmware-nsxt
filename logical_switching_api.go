@@ -9,7 +9,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/vmware/go-vmware-nsxt/manager"
+	"github.com/mengdie-song/go-vmware-nsxt/manager"
 	"net/http"
 	"net/url"
 	"strings"
