@@ -22,8 +22,6 @@ var (
 	_ context.Context
 )
 
-type NsxComponentAdministrationApiService service
-
 /* NsxComponentAdministrationApiService Add a New Certificate
 Adds a new private-public certificate or a chain of certificates (CAs) and, optionally, a private key that can be applied to one of the user-facing components (appliance management or edge). The certificate and the key should be stored in PEM format. If no private key is provided, the certificate is used as a client certificate in the trust store.
 * @param ctx context.Context Authentication Context
@@ -86,6 +84,8 @@ func (a *NsxComponentAdministrationApiService) AddCertificateImport(ctx context.
 
 	return successPayload, localVarHttpResponse, err
 }
+
+type NsxComponentAdministrationApiService service
 
 /* NsxComponentAdministrationApiService Add a Node to the Cluster
 Adds a new management node or controller node to the NSX cluster. A single node can perform one role, either management or control, not both.
